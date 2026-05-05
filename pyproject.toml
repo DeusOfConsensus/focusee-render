@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "focusee-render"
+version = "1.0.0"
+description = "Private CLI renderer for FocuSee screen recording projects"
+authors = [{ name = "Asmodeus" }]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Private — All Rights Reserved" }
+
+dependencies = [
+    "opencv-python>=4.8",
+    "Pillow>=10.0",
+    "numpy>=1.24",
+]
+
+[project.scripts]
+focusee-render = "focusee_render.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["focusee_render*"]

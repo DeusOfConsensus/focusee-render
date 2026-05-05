@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Rendered outputs (don't commit video files)
+*.mp4
+*.m4a
+*_RAW.mp4
+rendered_output.mp4
+
+# FocuSee project data (if you ever clone into a project folder by accident)
+recording/
+resource/
+configure.focuseeproj
