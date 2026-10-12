@@ -1,6 +1,6 @@
 # focusee-render
 
-A private CLI tool that renders [FocuSee](https://focusee.app) screen recording
+A CLI tool that renders [FocuSee](https://focusee.app) screen recording
 projects into polished MP4 videos — replicating every visual effect FocuSee locks
 behind its premium paywall.
 
@@ -50,7 +50,7 @@ Before you start, make sure these are installed on your PC:
 ### Installing ffmpeg (Windows)
 
 1. Download the **release essentials** build from:
-   👉 https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip
+    https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip
 
 2. Extract the zip. Inside you'll find a folder like `ffmpeg-8.x-essentials_build`.
 
@@ -80,7 +80,6 @@ Open a terminal and run:
 git clone https://github.com/DeusOfConsensus/focusee-render.git C:\Tools\focusee-render
 ```
 
-> Replace `YOUR_USERNAME` with your actual GitHub username.
 > You can clone to any folder you like — `C:\Tools\focusee-render` is just a suggestion.
 
 ### Step 2 — Install Python dependencies
@@ -134,7 +133,7 @@ After you finish a recording in FocuSee and it asks you to upgrade to export:
 focusee-render
 ```
 
-4. Watch the progress bar. When it finishes you'll see:
+4. Watch the progress bar. When it finishes you'll see (for example):
 
 ```
   ✅  Done!  →  C:\...\rendered_output.mp4  (45.2 MB)
@@ -394,7 +393,7 @@ start to finish:
 # 3. Install ffmpeg — copy ffmpeg.exe to C:\Windows\System32\
 
 # 4. Clone this repo
-git clone https://github.com/YOUR_USERNAME/focusee-render.git C:\Tools\focusee-render
+git clone https://github.com/DeusOfConsensus/focusee-render.git C:\Tools\focusee-render
 
 # 5. Install dependencies
 pip install opencv-python Pillow numpy
@@ -407,10 +406,3 @@ focusee-render --help
 ```
 
 Total time: about 5 minutes. Then `focusee-render` works from any project folder.
-
----
-
-## License
-
-Private — All Rights Reserved.  
-Built by **Asmodeus** for personal use only. Not for distribution.
